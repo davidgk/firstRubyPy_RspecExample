@@ -1,0 +1,4 @@
+Si queremos correr los test desde la consola:
+
+$>cd $PROYECT_PATH;
+$> bundle exec rspec
