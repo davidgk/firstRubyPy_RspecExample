@@ -2,3 +2,7 @@ Si queremos correr los test desde la consola:
 
 $>cd $PROYECT_PATH;
 $> bundle exec rspec
+
+Another way
+
+$> bundle exec rspec --format documentation
