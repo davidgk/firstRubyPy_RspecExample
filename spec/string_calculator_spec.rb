@@ -1,9 +1,13 @@
 require 'rspec'
+require './lib/string_calculator'
 
-describe 'StringCalulator' do
+describe 'StringCalculator' do
 
-  it 'should do something' do
-
-    true.should == false
+  describe ".add" do
+    context "given an empty string" do
+      it "returns zero" do
+        expect(StringCalculator.add("")).to eql(0)
+      end
+    end
   end
 end
